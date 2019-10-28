@@ -1,0 +1,4 @@
+$ cat .gitignore
+
+quotes.json
+.idea/
