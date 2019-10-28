@@ -7,7 +7,7 @@ class BrickSetSpider(scrapy.Spider):
     start_urls = ['http://poezdato.net/raspisanie-poezdov/molodechno--minsk/']
 
     def parse(self, response):
-        print("Хочу этот")
+        print("Хочe hdsh/k")
         SET_SELECTOR = 'tr'
         for brickset in response.css(SET_SELECTOR):
             TIME_SELECTOR = 'td ._time ::text'
