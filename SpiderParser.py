@@ -8,6 +8,7 @@ class BrickSetSpider(scrapy.Spider):
 
     def parse(self, response):
         print("Хочe hdsh/k")
+        print("sda;kjbsdsd;fml/")
         SET_SELECTOR = 'tr'
         for brickset in response.css(SET_SELECTOR):
             TIME_SELECTOR = 'td ._time ::text'
